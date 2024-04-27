@@ -3,7 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to bottom, #26ba26, #b42d9b, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
-  color: #333;
+  color: #FFFFFF;
   margin: 0;
   padding: 0;
 }
