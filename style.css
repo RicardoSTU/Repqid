@@ -3,7 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to bottom, #26ba26, #b42d9b, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
-  color: #FFFFFF;
+  color: #333; /* Темний текст */
   margin: 0;
   padding: 0;
 }
@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav a {
-  color: #FFFFFF;
+  color: #333; /* Темний текст */
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #FFFFFF;
+  color: #000; /* Ще темніший текст при наведенні */
 }
 
 main {
@@ -53,7 +53,7 @@ section {
 
 section h2 {
   margin-bottom: 20px;
-  color: #FFFFFF;
+  color: #333; /* Темний текст */
 }
 
 section ul {
@@ -82,16 +82,17 @@ section img:hover {
 
 section h3 {
   margin-top: 10px;
-  color: #FFFFFF;
+  color: #333; /* Темний текст */
 }
 
 section p {
   margin-top: 10px;
+  color: #fff; /* Білий текст */
 }
 
 section a {
   background: linear-gradient(to right, #a5d6a7, #ab47bc, #ec407a); /* Світло-зелений, фіолетовий та рожевий градієнт */
-  color: #FFFFFF;
+  color: #333; /* Темний текст */
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -100,11 +101,12 @@ section a {
 
 section a:hover {
   background: linear-gradient(to right, #ec407a, #ab47bc, #a5d6a7); /* Зміна кольору рожевого градієнту при наведенні */
+  color: #fff; /* Білий текст */
 }
 
 footer {
   background: linear-gradient(to right, #a5d6a7, #33c733, #b81ea4); /* Світло-зелений, лаймовий та фіолетовий градієнт */
-  color: #FFFFFF;
+  color: #333; /* Темний текст */
   padding: 20px;
   text-align: center;
   border-radius: 10px;
