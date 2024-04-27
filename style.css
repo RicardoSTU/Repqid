@@ -91,7 +91,7 @@ section p {
 
 section a {
   background: linear-gradient(to right, #a5d6a7, #ab47bc, #ec407a); /* Світло-зелений, фіолетовий та рожевий градієнт */
-  color: #fff;
+  color: #FFFFFF;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -104,7 +104,7 @@ section a:hover {
 
 footer {
   background: linear-gradient(to right, #a5d6a7, #33c733, #b81ea4); /* Світло-зелений, лаймовий та фіолетовий градієнт */
-  color: #fff;
+  color: #FFFFFF;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
