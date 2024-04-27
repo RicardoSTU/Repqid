@@ -1,11 +1,16 @@
+
 body {
-  font-family: 'Baloo 2', cursive;
-  background: linear-gradient(to bottom, #ff6699, #00ff00, #0066cc, #00cc66, #333333);
-  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #00ff00, #8e24aa, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #59de66;
+  background: linear-gradient(to bottom right, #00ff00, #8e24aa, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -18,13 +23,9 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  background-color: #0011ff;
+  background: linear-gradient(to right, #a5d6a7, #ab47bc, #ec407a); /* Світло-зелений, фіолетовий та рожевий градієнт */
   padding: 10px;
   border-radius: 10px;
-}
-
-nav li {
-  margin: 0 10px;
 }
 
 nav a {
@@ -36,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000000;
+  color: #000;
 }
 
 main {
@@ -53,7 +54,7 @@ section {
 
 section h2 {
   margin-bottom: 20px;
-  color: #000000;
+  color: #000;
 }
 
 section ul {
@@ -70,7 +71,7 @@ section li {
 }
 
 section img {
-  max-width: 100%;
+  max-width: 200px; /* Зменшуємо ширину картинок */
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
@@ -82,7 +83,7 @@ section img:hover {
 
 section h3 {
   margin-top: 10px;
-  color: #000000;
+  color: #000;
 }
 
 section p {
@@ -90,7 +91,7 @@ section p {
 }
 
 section a {
-  background-color: #000000;
+  background: linear-gradient(to right, #a5d6a7, #ab47bc, #ec407a); /* Світло-зелений, фіолетовий та рожевий градієнт */
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -99,31 +100,13 @@ section a {
 }
 
 section a:hover {
-  background-color: #000000;
+  background: linear-gradient(to right, #ec407a, #ab47bc, #a5d6a7); /* Зміна кольору рожевого градієнту при наведенні */
 }
 
 footer {
-  background-color: #000000;
+  background: linear-gradient(to right, #a5d6a7, #00ff00, #8e24aa); /* Світло-зелений, лаймовий та фіолетовий градієнт */
   color: #fff;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
-}
-
-button {
-  background-color: #000000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: #984aff;
-}
-
-body {
-  cursor: url('cursor.png'), auto;
 }
