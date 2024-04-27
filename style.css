@@ -1,16 +1,15 @@
-
 body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to bottom, #00ff00, #8e24aa, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
+  background: linear-gradient(to bottom, #26ba26, #b42d9b, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
   color: #333;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: linear-gradient(to bottom right, #00ff00, #8e24aa, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
+  background: linear-gradient(to bottom right, #47bd47, #c125bc, #f06292); /* Лаймовий, фіолетовий та рожевий градієнт */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -104,7 +103,7 @@ section a:hover {
 }
 
 footer {
-  background: linear-gradient(to right, #a5d6a7, #00ff00, #8e24aa); /* Світло-зелений, лаймовий та фіолетовий градієнт */
+  background: linear-gradient(to right, #a5d6a7, #33c733, #b81ea4); /* Світло-зелений, лаймовий та фіолетовий градієнт */
   color: #fff;
   padding: 20px;
   text-align: center;
